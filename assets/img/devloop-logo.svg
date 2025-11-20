@@ -1,0 +1,14 @@
+﻿<svg width="140" height="40" viewBox="0 0 140 40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="loopGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+  </defs>
+  <rect width="140" height="40" rx="12" fill="#0f172a" />
+  <g fill="none" stroke="url(#loopGradient)" stroke-width="4" stroke-linecap="round">
+    <path d="M24 11c-7 0-13 5-13 9s6 9 13 9 13-5 13-9-6-9-13-9z" />
+    <path d="M50 11c-7 0-13 5-13 9s6 9 13 9 13-5 13-9-6-9-13-9z" />
+  </g>
+  <text x="70" y="26" font-family="'Space Grotesk', sans-serif" font-size="18" font-weight="600" fill="#f8fbff">DevLoop</text>
+</svg>

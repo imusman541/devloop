@@ -1,0 +1,790 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevLoop | Software House</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="logo" href="#top" aria-label="DevLoop home">
+          <span class="logo-text">
+            <span class="logo-dev">Dev</span><span class="logo-loop">Loop</span>
+          </span>
+        </a>
+        <nav class="main-nav">
+          <a href="#services">Services</a>
+          <a href="#tech">Technology</a>
+          <a href="#team">Team</a>
+          <a href="#projects">Projects</a>
+          <a href="#why-us">Why Us</a>
+          <a href="#contact" class="btn btn-outline">Contact</a>
+        </nav>
+        <button class="nav-toggle" aria-label="Open navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div class="hero-background-image"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-animated-bg">
+          <div class="floating-shape shape-1"></div>
+          <div class="floating-shape shape-2"></div>
+          <div class="floating-shape shape-3"></div>
+          <div class="floating-shape shape-4"></div>
+          <div class="floating-shape shape-5"></div>
+        </div>
+        <div class="container grid">
+          <div class="hero-content">
+            <p class="eyebrow">Forward-thinking software house</p>
+            <h1>Turning innovative ideas into impactful digital solutions.</h1>
+            <p class="lead">
+              We empower businesses with tailor-made platforms that simplify operations,
+              unlock opportunities, and scale with confidence.
+            </p>
+            <div class="hero-actions">
+              <a href="#services" class="btn">Explore services</a>
+              <a href="#projects" class="btn btn-ghost">View case studies</a>
+            </div>
+            <div class="hero-stats">
+              <div>
+                <span class="value" data-target="25" data-suffix="+">0+</span>
+                <p>End-to-end projects delivered</p>
+              </div>
+              <div>
+                <span class="value" data-target="9">0</span>
+                <p>Specialized disciplines in-house</p>
+              </div>
+              <div>
+                <span class="value" data-target="100" data-suffix="%">0%</span>
+                <p>Focus on scalability & security</p>
+              </div>
+            </div>
+          </div>
+          <div class="hero-panel">
+            <div class="panel-card">
+              <p class="label">Core belief</p>
+              <h3>Nothing generic. Nothing wasted.</h3>
+              <p>
+                Every engagement is designed end-to-end&nbsp;from first brainstorm to final
+                deployment to drive measurable growth and long-term adaptability.
+              </p>
+            </div>
+            <div class="panel-card">
+              <p class="label">Key capabilities</p>
+              <ul>
+                <li>Strategy & product discovery</li>
+                <li>Full-stack engineering</li>
+                <li>Cloud, DevOps & automation</li>
+                <li>Continuous optimization</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <div class="services-background-image"></div>
+        <div class="services-overlay"></div>
+        <div class="container">
+          <div class="section-header">
+            <p class="eyebrow">Our services</p>
+            <h2>Purpose-built software for every business workflow.</h2>
+            <p>
+              From enterprise platforms to automation pipelines, we blend creativity,
+              technical rigor, and industry insight to deliver future-ready solutions.
+            </p>
+          </div>
+          <div class="services-slider">
+            <button class="slider-btn prev" aria-label="Previous services">
+              <span>&larr;</span>
+            </button>
+            <div class="services-grid" data-slider-track>
+              <article class="service-card" data-service="web-app" role="button" tabindex="0" aria-haspopup="dialog">
+                <div class="service-icon">
+                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="48" height="48" rx="12" fill="url(#gradient1)"/>
+                    <path d="M16 16h16v16H16V16zm2 2v12h12V18H18zm2 2h8v2h-8v-2zm0 4h8v2h-8v-2zm0 4h6v2h-6v-2z" fill="white"/>
+                    <defs>
+                      <linearGradient id="gradient1" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#2563eb"/>
+                        <stop offset="1" stop-color="#8b5cf6"/>
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </div>
+                <h3>Web Application Development</h3>
+                <p>
+                  Custom platforms crafted specifically for the business&nbsp;no templates,
+                  no bloat. Every feature is intentional.
+                </p>
+                <span class="service-learn-more">Click to learn more</span>
+              </article>
+              <article class="service-card" data-service="cloud" role="button" tabindex="0" aria-haspopup="dialog">
+                <div class="service-icon">
+                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="48" height="48" rx="12" fill="url(#gradient2)"/>
+                    <path d="M24 18c-3.314 0-6 2.686-6 6 0 .552.448 1 1 1s1-.448 1-1c0-2.206 1.794-4 4-4s4 1.794 4 4c0 .552.448 1 1 1s1-.448 1-1c0-3.314-2.686-6-6-6zm-8 8c-2.206 0-4 1.794-4 4s1.794 4 4 4h16c2.206 0 4-1.794 4-4s-1.794-4-4-4c-.552 0-1-.448-1-1s.448-1 1-1c3.314 0 6 2.686 6 6s-2.686 6-6 6H16c-3.314 0-6-2.686-6-6s2.686-6 6-6z" fill="white"/>
+                    <defs>
+                      <linearGradient id="gradient2" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#2563eb"/>
+                        <stop offset="1" stop-color="#8b5cf6"/>
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </div>
+                <h3>Cloud Solutions</h3>
+                <p>
+                  AWS, Azure, and more&nbsp;designed for flexibility, cost-efficiency, and
+                  secure real-time access.
+                </p>
+                <span class="service-learn-more">Click to learn more</span>
+              </article>
+              <article class="service-card" data-service="api" role="button" tabindex="0" aria-haspopup="dialog">
+                <div class="service-icon">
+                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="48" height="48" rx="12" fill="url(#gradient3)"/>
+                    <path d="M16 20h4v4h-4v-4zm12 0h4v4h-4v-4zm-6 0h4v4h-4v-4zm-6 8h4v4h-4v-4zm12 0h4v4h-4v-4zm-6 0h4v4h-4v-4z" fill="white"/>
+                    <circle cx="14" cy="14" r="2" fill="white"/>
+                    <circle cx="24" cy="14" r="2" fill="white"/>
+                    <circle cx="34" cy="14" r="2" fill="white"/>
+                    <circle cx="14" cy="34" r="2" fill="white"/>
+                    <circle cx="24" cy="34" r="2" fill="white"/>
+                    <circle cx="34" cy="34" r="2" fill="white"/>
+                    <defs>
+                      <linearGradient id="gradient3" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#2563eb"/>
+                        <stop offset="1" stop-color="#8b5cf6"/>
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </div>
+                <h3>API Design & Integration</h3>
+                <p>
+                  Seamless connectivity so data, tools, and teams work together without
+                  friction.
+                </p>
+                <span class="service-learn-more">Click to learn more</span>
+              </article>
+              <article class="service-card" data-service="data-processing" role="button" tabindex="0" aria-haspopup="dialog">
+                <div class="service-icon">
+                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="48" height="48" rx="12" fill="url(#gradient4)"/>
+                    <path d="M14 20h20v2H14v-2zm0 4h20v2H14v-2zm0 4h16v2H14v-2z" fill="white"/>
+                    <circle cx="12" cy="21" r="1.5" fill="white"/>
+                    <circle cx="12" cy="25" r="1.5" fill="white"/>
+                    <circle cx="12" cy="29" r="1.5" fill="white"/>
+                    <defs>
+                      <linearGradient id="gradient4" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#2563eb"/>
+                        <stop offset="1" stop-color="#8b5cf6"/>
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </div>
+                <h3>Data Processing & Automation</h3>
+                <p>
+                  Secure data pipelines, dashboards, and workflows that automate manual
+                  tasks and unlock insights.
+                </p>
+                <span class="service-learn-more">Click to learn more</span>
+              </article>
+              <article class="service-card" data-service="process-optimization" role="button" tabindex="0" aria-haspopup="dialog">
+                <div class="service-icon">
+                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="48" height="48" rx="12" fill="url(#gradient5)"/>
+                    <path d="M24 16c-4.418 0-8 3.582-8 8s3.582 8 8 8 8-3.582 8-8-3.582-8-8-8zm0 14c-3.314 0-6-2.686-6-6s2.686-6 6-6 6 2.686 6 6-2.686 6-6 6zm-8-8c0-1.105.895-2 2-2s2 .895 2 2-.895 2-2 2-2-.895-2-2zm8 0c0-1.105.895-2 2-2s2 .895 2 2-.895 2-2 2-2-.895-2-2z" fill="white"/>
+                    <defs>
+                      <linearGradient id="gradient5" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#2563eb"/>
+                        <stop offset="1" stop-color="#8b5cf6"/>
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </div>
+                <h3>Process Optimization</h3>
+                <p>
+                  Rethink operations, reduce bottlenecks, and create pathways for
+                  continuous improvement.
+                </p>
+                <span class="service-learn-more">Click to learn more</span>
+              </article>
+              <article class="service-card" data-service="devops" role="button" tabindex="0" aria-haspopup="dialog">
+                <div class="service-icon">
+                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="48" height="48" rx="12" fill="url(#gradient6)"/>
+                    <path d="M24 14l8 6v8l-8 6-8-6v-8l8-6zm6 12.5l-6 4.5-6-4.5v-5l6-4.5 6 4.5v5z" fill="white"/>
+                    <defs>
+                      <linearGradient id="gradient6" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#2563eb"/>
+                        <stop offset="1" stop-color="#8b5cf6"/>
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </div>
+                <h3>DevOps & CI/CD</h3>
+                <p>
+                  Automated testing, rapid deployment, and reliable updates that keep
+                  innovation moving.
+                </p>
+                <span class="service-learn-more">Click to learn more</span>
+              </article>
+              <article class="service-card" data-service="user-management" role="button" tabindex="0" aria-haspopup="dialog">
+                <div class="service-icon">
+                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="48" height="48" rx="12" fill="url(#gradient7)"/>
+                    <circle cx="24" cy="18" r="4" fill="white"/>
+                    <path d="M16 30c0-4.418 3.582-8 8-8s8 3.582 8 8v2H16v-2z" fill="white"/>
+                    <defs>
+                      <linearGradient id="gradient7" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#2563eb"/>
+                        <stop offset="1" stop-color="#8b5cf6"/>
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </div>
+                <h3>User Management Systems</h3>
+                <p>
+                  Secure, intuitive admin experiences for permissions, onboarding, and
+                  activity tracking.
+                </p>
+                <span class="service-learn-more">Click to learn more</span>
+              </article>
+              <article class="service-card" data-service="erp-crm" role="button" tabindex="0" aria-haspopup="dialog">
+                <div class="service-icon">
+                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="48" height="48" rx="12" fill="url(#gradient8)"/>
+                    <path d="M16 20h16v16H16V20zm2 2v12h12V22H18zm2 2h8v2h-8v-2zm0 4h8v2h-8v-2zm0 4h6v2h-6v-2z" fill="white"/>
+                    <path d="M14 18h20v2H14v-2z" fill="white"/>
+                    <defs>
+                      <linearGradient id="gradient8" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#2563eb"/>
+                        <stop offset="1" stop-color="#8b5cf6"/>
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </div>
+                <h3>ERP & CRM Solutions</h3>
+                <p>
+                  Unified views across sales, support, finance, and inventory for smarter
+                  decisions.
+                </p>
+                <span class="service-learn-more">Click to learn more</span>
+              </article>
+            </div>
+            <button class="slider-btn next" aria-label="Next services">
+              <span>&rarr;</span>
+            </button>
+            <div class="services-slider-progress">
+              <div class="services-slider-progress-bar" id="services-progress-bar"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="tech" id="tech">
+        <div class="section-background-image"></div>
+        <div class="section-overlay"></div>
+        <div class="container">
+          <div class="section-header">
+            <p class="eyebrow">Technology stack</p>
+            <h2>Modern tools to build resilient, scalable platforms.</h2>
+          </div>
+          <div class="tech-grid">
+            <article class="tech-card">
+              <div class="tech-icon">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="48" height="48" rx="12" fill="url(#techGradient1)"/>
+                  <path d="M16 16h16v16H16V16zm2 2v12h12V18H18zm2 2h8v2h-8v-2zm0 4h8v2h-8v-2zm0 4h6v2h-6v-2z" fill="white"/>
+                  <defs>
+                    <linearGradient id="techGradient1" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#2563eb"/>
+                      <stop offset="1" stop-color="#8b5cf6"/>
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+              <h3>Frontend</h3>
+              <ul>
+                <li>React / Next.js</li>
+                <li>Angular</li>
+                <li>Vue.js</li>
+                <li>Razor Pages & ERB</li>
+                <li>Tailwind / CSS</li>
+              </ul>
+            </article>
+            <article class="tech-card">
+              <div class="tech-icon">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="48" height="48" rx="12" fill="url(#techGradient2)"/>
+                  <path d="M14 14h20v20H14V14zm2 2v16h16V16H16zm2 2h12v2H18v-2zm0 4h12v2H18v-2zm0 4h10v2H18v-2z" fill="white"/>
+                  <defs>
+                    <linearGradient id="techGradient2" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#2563eb"/>
+                      <stop offset="1" stop-color="#8b5cf6"/>
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+              <h3>Backend</h3>
+              <ul>
+                <li>Node.js, Python</li>
+                <li>.NET Framework & .NET Core 8+</li>
+                <li>Ruby on Rails</li>
+                <li>Next.js full-stack</li>
+              </ul>
+            </article>
+            <article class="tech-card">
+              <div class="tech-icon">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="48" height="48" rx="12" fill="url(#techGradient3)"/>
+                  <path d="M16 20h4v4h-4v-4zm12 0h4v4h-4v-4zm-6 0h4v4h-4v-4zm-6 8h4v4h-4v-4zm12 0h4v4h-4v-4zm-6 0h4v4h-4v-4z" fill="white"/>
+                  <circle cx="14" cy="14" r="2" fill="white"/>
+                  <circle cx="24" cy="14" r="2" fill="white"/>
+                  <circle cx="34" cy="14" r="2" fill="white"/>
+                  <circle cx="14" cy="34" r="2" fill="white"/>
+                  <circle cx="24" cy="34" r="2" fill="white"/>
+                  <circle cx="34" cy="34" r="2" fill="white"/>
+                  <defs>
+                    <linearGradient id="techGradient3" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#2563eb"/>
+                      <stop offset="1" stop-color="#8b5cf6"/>
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+              <h3>Databases & APIs</h3>
+              <ul>
+                <li>MongoDB, PostgreSQL, MySQL</li>
+                <li>MS SQL, DynamoDB</li>
+                <li>REST, GraphQL, FastAPI</li>
+                <li>Third-party API integrations</li>
+              </ul>
+            </article>
+            <article class="tech-card">
+              <div class="tech-icon">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="48" height="48" rx="12" fill="url(#techGradient4)"/>
+                  <path d="M24 18c-3.314 0-6 2.686-6 6 0 .552.448 1 1 1s1-.448 1-1c0-2.206 1.794-4 4-4s4 1.794 4 4c0 .552.448 1 1 1s1-.448 1-1c0-3.314-2.686-6-6-6zm-8 8c-2.206 0-4 1.794-4 4s1.794 4 4 4h16c2.206 0 4-1.794 4-4s-1.794-4-4-4c-.552 0-1-.448-1-1s.448-1 1-1c3.314 0 6 2.686 6 6s-2.686 6-6 6H16c-3.314 0-6-2.686-6-6s2.686-6 6-6z" fill="white"/>
+                  <defs>
+                    <linearGradient id="techGradient4" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#2563eb"/>
+                      <stop offset="1" stop-color="#8b5cf6"/>
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+              <h3>Cloud & DevOps</h3>
+              <ul>
+                <li>AWS & Azure</li>
+                <li>CI/CD pipelines</li>
+                <li>n8n workflows</li>
+                <li>Containerization & automation</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="team" id="team">
+        <div class="section-background-image"></div>
+        <div class="section-overlay"></div>
+        <div class="container">
+          <div class="section-header">
+            <p class="eyebrow">Meet our team</p>
+            <h2>Multi-disciplinary experts aligned on outcomes.</h2>
+          </div>
+          <div class="team-grid">
+            <article class="team-card" data-team="whail" role="button" tabindex="0" aria-haspopup="dialog">
+              <p class="role">Senior Software Developer</p>
+              <h3>Whail Bin Sharif</h3>
+              <p>
+                8 years in full-stack & DevOps, specializing in Ruby on Rails,
+                JavaScript, and scalable deployments.
+              </p>
+              <span class="team-learn-more">Click to learn more</span>
+            </article>
+            <article class="team-card" data-team="usman" role="button" tabindex="0" aria-haspopup="dialog">
+              <p class="role">Senior Software Developer</p>
+              <h3>Muhammad Usman</h3>
+              <p>
+                7+ years across Node.js, React.js, AWS, and data visualization with
+                expertise in scalable APIs and infrastructure.
+              </p>
+              <span class="team-learn-more">Click to learn more</span>
+            </article>
+            <article class="team-card" data-team="suhaib" role="button" tabindex="0" aria-haspopup="dialog">
+              <p class="role">Senior Software Developer</p>
+              <h3>Suhaib Hassan</h3>
+              <p>
+                9+ years delivering .NET Core and Angular platforms with robust RESTful
+                APIs.
+              </p>
+              <span class="team-learn-more">Click to learn more</span>
+            </article>
+            <article class="team-card" data-team="farhan" role="button" tabindex="0" aria-haspopup="dialog">
+              <p class="role">Project Manager</p>
+              <h3>Farhan Khurram</h3>
+              <p>
+                7 years leading Agile, Scrum, and Waterfall initiatives with Jira and
+                Trello mastery.
+              </p>
+              <span class="team-learn-more">Click to learn more</span>
+            </article>
+            <article class="team-card" data-team="waleed" role="button" tabindex="0" aria-haspopup="dialog">
+              <p class="role">Senior QA Engineer</p>
+              <h3>Waleed Haider</h3>
+              <p>
+                8+ years in manual & automation testing (Selenium, Cypress, JUnit) with a
+                focus on CI/CD and performance.
+              </p>
+              <span class="team-learn-more">Click to learn more</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="section-background-image"></div>
+        <div class="section-overlay"></div>
+        <div class="container">
+          <div class="section-header">
+            <p class="eyebrow">Our projects</p>
+            <h2>Case studies across industries.</h2>
+          </div>
+          <div class="project-slider">
+            <button class="slider-btn prev" aria-label="Previous projects">
+              <span>&larr;</span>
+            </button>
+            <div class="project-grid" data-slider-track>
+            <article class="project-card" data-project="dynamicforms" role="button" tabindex="0" aria-haspopup="dialog">
+              <p class="label">Web Application</p>
+              <h3>DynamicForms Configuration Module</h3>
+              <p class="stack">.NET Core &middot; Angular</p>
+              <ul>
+                <li>User-defined configuration for complex forms</li>
+                <li>Dynamic adjustments based on saved data</li>
+                <li>Personalized UX</li>
+              </ul>
+              <span class="project-learn-more">Click to learn more</span>
+            </article>
+            <article class="project-card" data-project="telemarketing" role="button" tabindex="0" aria-haspopup="dialog">
+              <p class="label">Telemarketing Platform</p>
+              <h3>Full-stack Platform</h3>
+              <p class="stack">.NET Core 8 &middot; Angular &middot; ASP.NET Identity</p>
+              <ul>
+                <li>Role-based access with Angular Signals</li>
+                <li>Claims-based authorization & email verification</li>
+                <li>Responsive UI</li>
+              </ul>
+              <span class="project-learn-more">Click to learn more</span>
+            </article>
+            <article class="project-card" data-project="data-processing" role="button" tabindex="0" aria-haspopup="dialog">
+              <p class="label">Data Management</p>
+              <h3>Data Processing Platform</h3>
+              <p class="stack">.NET Core &middot; File Upload APIs</p>
+              <ul>
+                <li>Secure file ingestion & validation</li>
+                <li>Automated processing workflows</li>
+                <li>UI-equivalent storage</li>
+              </ul>
+              <span class="project-learn-more">Click to learn more</span>
+            </article>
+            <article class="project-card" data-project="crm" role="button" tabindex="0" aria-haspopup="dialog">
+              <p class="label">CRM</p>
+              <h3>Customer Relationship Management</h3>
+              <p class="stack">.NET &middot; jQuery</p>
+              <ul>
+                <li>Supports multi-role profiles</li>
+                <li>Operational efficiency boosts</li>
+                <li>Adaptive to business needs</li>
+              </ul>
+              <span class="project-learn-more">Click to learn more</span>
+            </article>
+            <article class="project-card" data-project="schooler" role="button" tabindex="0" aria-haspopup="dialog">
+              <p class="label">EdTech</p>
+              <h3>Schooler</h3>
+              <p class="stack">Ruby on Rails &middot; React.js &middot; AWS S3</p>
+              <ul>
+                <li>Media-rich quiz builder</li>
+                <li>Teacher dashboards & analytics</li>
+                <li>Multi-currency payments & i18n</li>
+              </ul>
+              <span class="project-learn-more">Click to learn more</span>
+            </article>
+            <article class="project-card" data-project="cirrusly" role="button" tabindex="0" aria-haspopup="dialog">
+              <p class="label">Cloud Security</p>
+              <h3>Cirrusly</h3>
+              <p class="stack">Ruby on Rails &middot; Stimulus &middot; Turbo</p>
+              <ul>
+                <li>Org-based access control</li>
+                <li>Prowler security scans & CI/CD pipelines</li>
+                <li>Modern UX with faceted search</li>
+              </ul>
+              <span class="project-learn-more">Click to learn more</span>
+            </article>
+            <article class="project-card" data-project="winthrop" role="button" tabindex="0" aria-haspopup="dialog">
+              <p class="label">Automation</p>
+              <h3>Winthrop</h3>
+              <p class="stack">n8n &middot; Rails &middot; Sidekiq</p>
+              <ul>
+                <li>Document & notification pipelines</li>
+                <li>Background processing & retries</li>
+                <li>Knowledge transfer for clients</li>
+              </ul>
+              <span class="project-learn-more">Click to learn more</span>
+            </article>
+            <article class="project-card" data-project="urban-condo" role="button" tabindex="0" aria-haspopup="dialog">
+              <p class="label">Real Estate</p>
+              <h3>Urban Condo</h3>
+              <p class="stack">Ruby on Rails &middot; Action Cable</p>
+              <ul>
+                <li>Listings for rent, sale, purchase</li>
+                <li>Real-time chat via Action Cable</li>
+                <li>Follow Up Boss API integration</li>
+              </ul>
+              <span class="project-learn-more">Click to learn more</span>
+            </article>
+            <article class="project-card" data-project="brief-adler" role="button" tabindex="0" aria-haspopup="dialog">
+              <p class="label">E-commerce</p>
+              <h3>Brief Adler</h3>
+              <p class="stack">React &middot; TypeScript &middot; AWS</p>
+              <ul>
+                <li>Amazon SP API integrations</li>
+                <li>Stripe billing & CI/CD</li>
+                <li>Type-safe modern architecture</li>
+              </ul>
+              <span class="project-learn-more">Click to learn more</span>
+            </article>
+            <article class="project-card" data-project="qikfinds" role="button" tabindex="0" aria-haspopup="dialog">
+              <p class="label">Chrome Extension</p>
+              <h3>QikFinds</h3>
+              <p class="stack">React &middot; Node.js &middot; MongoDB</p>
+              <ul>
+                <li>Real-time product analysis</li>
+                <li>JWT authentication & SP API</li>
+                <li>Stripe subscriptions</li>
+              </ul>
+              <span class="project-learn-more">Click to learn more</span>
+            </article>
+            <article class="project-card" data-project="seller-repay" role="button" tabindex="0" aria-haspopup="dialog">
+              <p class="label">FinTech</p>
+              <h3>Seller Repay</h3>
+              <p class="stack">Node.js &middot; MongoDB &middot; AWS Lambda</p>
+              <ul>
+                <li>Scalable REST APIs</li>
+                <li>Optimized queries & indexes</li>
+                <li>Cloud-native observability</li>
+              </ul>
+              <span class="project-learn-more">Click to learn more</span>
+            </article>
+            <article class="project-card" data-project="bidx" role="button" tabindex="0" aria-haspopup="dialog">
+              <p class="label">AdTech</p>
+              <h3>BidX</h3>
+              <p class="stack">Node.js &middot; React &middot; GraphQL</p>
+              <ul>
+                <li>Amazon Advertising API integrations</li>
+                <li>Optimized ETL workflows</li>
+                <li>Interactive dashboards</li>
+              </ul>
+              <span class="project-learn-more">Click to learn more</span>
+            </article>
+            </div>
+            <button class="slider-btn next" aria-label="Next projects">
+              <span>&rarr;</span>
+            </button>
+            <div class="project-slider-progress">
+              <div class="project-slider-progress-bar" id="project-progress-bar"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="project-modal" id="project-modal" aria-hidden="true">
+        <div class="modal-backdrop" data-close-modal></div>
+        <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="project-modal-title">
+          <button class="modal-close" aria-label="Close project details" data-close-modal>&times;</button>
+          <span class="modal-pill" id="project-modal-domain"></span>
+          <h3 id="project-modal-title"></h3>
+          <div class="modal-section">
+            <h4>Overview</h4>
+            <p id="project-modal-overview"></p>
+          </div>
+          <div class="modal-section">
+            <h4>Key Features</h4>
+            <ul class="modal-features" id="project-modal-features"></ul>
+          </div>
+          <div class="modal-section">
+            <h4>Technology Stack</h4>
+            <div class="modal-stack" id="project-modal-stack"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="service-modal" id="service-modal" aria-hidden="true">
+        <div class="modal-backdrop" data-close-service-modal></div>
+        <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="service-modal-title">
+          <button class="modal-close" aria-label="Close service details" data-close-service-modal>&times;</button>
+          <h3 id="service-modal-title"></h3>
+          <div class="modal-section">
+            <h4>Overview</h4>
+            <p id="service-modal-overview"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="team-modal" id="team-modal" aria-hidden="true">
+        <div class="modal-backdrop" data-close-team-modal></div>
+        <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="team-modal-title">
+          <button class="modal-close" aria-label="Close team member details" data-close-team-modal>&times;</button>
+          <span class="modal-pill" id="team-modal-role"></span>
+          <h3 id="team-modal-title"></h3>
+          <div class="modal-section">
+            <h4>About</h4>
+            <p id="team-modal-overview"></p>
+          </div>
+          <div class="modal-section">
+            <h4>Expertise & Skills</h4>
+            <ul class="modal-features" id="team-modal-skills"></ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="why-us-modal" id="why-us-modal" aria-hidden="true">
+        <div class="modal-backdrop" data-close-why-us-modal></div>
+        <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="why-us-modal-title">
+          <button class="modal-close" aria-label="Close why us details" data-close-why-us-modal>&times;</button>
+          <h3 id="why-us-modal-title"></h3>
+          <div class="modal-section">
+            <h4>Overview</h4>
+            <p id="why-us-modal-intro"></p>
+          </div>
+          <div class="modal-section">
+            <h4>Strategic Pillars</h4>
+            <div class="why-us-pillars" id="why-us-modal-pillars"></div>
+          </div>
+        </div>
+      </div>
+
+      <section class="why-us" id="why-us">
+        <div class="section-background-image"></div>
+        <div class="section-overlay"></div>
+        <div class="container">
+          <div class="section-header">
+            <p class="eyebrow">Why partner with DevLoop?</p>
+            <h2>Innovation that is accountable to results.</h2>
+          </div>
+          <div class="why-us-single-card">
+            <article class="why-us-card">
+              <h3>Why Partner with DevLoop?</h3>
+              <ul>
+                <li>Innovation-driven approach with modern technologies.</li>
+                <li>Agile delivery models that adapt to change.</li>
+                <li>Client-focused mindset and long-term partnerships.</li>
+                <li>Laser-focus on scalability, security, and business impact.</li>
+              </ul>
+              <span class="why-us-learn-more" data-open-why-us-modal role="button" tabindex="0">Click to learn more</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="section-header">
+            <p class="eyebrow">Start a conversation</p>
+            <h2>Ready to build what is next?</h2>
+            <p>
+              Let us explore how DevLoop can translate your product vision into a
+              reliable, scalable platform.
+            </p>
+          </div>
+          <div class="contact-card-wrapper">
+            <article class="contact-card">
+              <h3>Get in Touch</h3>
+              <div class="contact-info">
+                <div class="contact-item">
+                  <div class="contact-icon whatsapp-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" fill="currentColor"/>
+                    </svg>
+                  </div>
+                  <div class="contact-details">
+                    <a href="https://wa.me/923079486935" target="_blank" rel="noopener noreferrer" class="contact-link">
+                      +92 307 9486935
+                    </a>
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <div class="contact-icon whatsapp-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" fill="currentColor"/>
+                    </svg>
+                  </div>
+                  <div class="contact-details">
+                    <a href="https://wa.me/923246640219" target="_blank" rel="noopener noreferrer" class="contact-link">
+                      +92 324 6640219
+                    </a>
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <div class="contact-icon email-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </div>
+                  <div class="contact-details">
+                    <a href="mailto:founders@devloop.online" class="contact-link">
+                      founders@devloop.online
+                    </a>
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <div class="contact-icon location-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      <circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </div>
+                  <div class="contact-details">
+                    <p class="contact-text">Lahore, Pakistan</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; <span id="year"></span> DevLoop. All rights reserved.</p>
+        <a href="#top" class="back-to-top">Back to top</a>
+      </div>
+    </footer>
+
+    <button class="scroll-to-top" id="scroll-to-top" aria-label="Scroll to top">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M10 15V5M10 5L5 10M10 5L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
